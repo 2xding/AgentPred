@@ -1,0 +1,7 @@
+agent_class: SequentialAgent
+name: weighted_cv_pipeline_with_pro_freeroll
+sub_agents:
+  - config_path: agents/quick.yaml
+  - config_path: agents/portfolio.yaml
+  # --- PHASE 3: THE FREEROLL OPTIMIZER ---
+  - config_path: agents/pro.yaml

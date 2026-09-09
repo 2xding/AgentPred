@@ -1,0 +1,25 @@
+MODEL_PROXY_URL and MODEL_PROXY_API_KEY not found. Operating in Direct Provider Mode using environment variables.
+/Users/freddyding/Desktop/AgentPred/run_local_eval.py:285: UserWarning: [GEMINI_VIA_LITELLM] gemini/gemini-2.5-flash: You are using Gemini via LiteLLM. For better performance, reliability, and access to latest features, consider using Gemini directly through ADK's native Gemini integration. Replace LiteLlm(model='gemini/gemini-2.5-flash') with Gemini(model='gemini-2.5-flash'). Set ADK_SUPPRESS_GEMINI_LITELLM_WARNINGS=true to suppress this warning.
+  LiteLlm(
+/Users/freddyding/Desktop/AgentPred/run_local_eval.py:285: UserWarning: [GEMINI_VIA_LITELLM] gemini/gemini-2.5-flash-image: You are using Gemini via LiteLLM. For better performance, reliability, and access to latest features, consider using Gemini directly through ADK's native Gemini integration. Replace LiteLlm(model='gemini/gemini-2.5-flash-image') with Gemini(model='gemini-2.5-flash-image'). Set ADK_SUPPRESS_GEMINI_LITELLM_WARNINGS=true to suppress this warning.
+  LiteLlm(
+/Users/freddyding/Desktop/AgentPred/run_local_eval.py:285: UserWarning: [GEMINI_VIA_LITELLM] gemini/gemini-2.5-flash-lite: You are using Gemini via LiteLLM. For better performance, reliability, and access to latest features, consider using Gemini directly through ADK's native Gemini integration. Replace LiteLlm(model='gemini/gemini-2.5-flash-lite') with Gemini(model='gemini-2.5-flash-lite'). Set ADK_SUPPRESS_GEMINI_LITELLM_WARNINGS=true to suppress this warning.
+  LiteLlm(
+/Users/freddyding/Desktop/AgentPred/run_local_eval.py:285: UserWarning: [GEMINI_VIA_LITELLM] gemini/gemini-2.5-pro: You are using Gemini via LiteLLM. For better performance, reliability, and access to latest features, consider using Gemini directly through ADK's native Gemini integration. Replace LiteLlm(model='gemini/gemini-2.5-pro') with Gemini(model='gemini-2.5-pro'). Set ADK_SUPPRESS_GEMINI_LITELLM_WARNINGS=true to suppress this warning.
+  LiteLlm(
+/Users/freddyding/Desktop/AgentPred/run_local_eval.py:285: UserWarning: [GEMINI_VIA_LITELLM] gemini/gemini-3-flash-preview: You are using Gemini via LiteLLM. For better performance, reliability, and access to latest features, consider using Gemini directly through ADK's native Gemini integration. Replace LiteLlm(model='gemini/gemini-3-flash-preview') with Gemini(model='gemini-3-flash-preview'). Set ADK_SUPPRESS_GEMINI_LITELLM_WARNINGS=true to suppress this warning.
+  LiteLlm(
+/Users/freddyding/Desktop/AgentPred/run_local_eval.py:285: UserWarning: [GEMINI_VIA_LITELLM] gemini/gemini-3.1-flash-lite: You are using Gemini via LiteLLM. For better performance, reliability, and access to latest features, consider using Gemini directly through ADK's native Gemini integration. Replace LiteLlm(model='gemini/gemini-3.1-flash-lite') with Gemini(model='gemini-3.1-flash-lite'). Set ADK_SUPPRESS_GEMINI_LITELLM_WARNINGS=true to suppress this warning.
+  LiteLlm(
+/Users/freddyding/Desktop/AgentPred/run_local_eval.py:285: UserWarning: [GEMINI_VIA_LITELLM] gemini/gemini-3.1-pro-preview: You are using Gemini via LiteLLM. For better performance, reliability, and access to latest features, consider using Gemini directly through ADK's native Gemini integration. Replace LiteLlm(model='gemini/gemini-3.1-pro-preview') with Gemini(model='gemini-3.1-pro-preview'). Set ADK_SUPPRESS_GEMINI_LITELLM_WARNINGS=true to suppress this warning.
+  LiteLlm(
+/Users/freddyding/Desktop/AgentPred/run_local_eval.py:285: UserWarning: [GEMINI_VIA_LITELLM] gemini/gemini-3.5-flash: You are using Gemini via LiteLLM. For better performance, reliability, and access to latest features, consider using Gemini directly through ADK's native Gemini integration. Replace LiteLlm(model='gemini/gemini-3.5-flash') with Gemini(model='gemini-3.5-flash'). Set ADK_SUPPRESS_GEMINI_LITELLM_WARNINGS=true to suppress this warning.
+  LiteLlm(
+/Users/freddyding/Desktop/AgentPred/.venv/lib/python3.11/site-packages/google/adk/features/_feature_decorator.py:72: UserWarning: [EXPERIMENTAL] feature FeatureName.AGENT_CONFIG is enabled.
+  check_feature_enabled()
+/Users/freddyding/Desktop/AgentPred/run_local_eval.py:306: UserWarning: [EXPERIMENTAL] EventsCompactionConfig: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  events_compaction_config = EventsCompactionConfig(
+Starting local agent evaluation for kaggle_in_kaggle_train_13 with metric roc_auc...
+
+>>> Local Evaluation Failed: 404 Client Error for http+docker://localhost/v1.53/images/create?tag=local&fromImage=aap-sandbox: Not Found ("pull access denied for aap-sandbox, repository does not exist or may require 'docker login'") <<<
+

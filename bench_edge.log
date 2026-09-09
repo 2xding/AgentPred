@@ -1,0 +1,18 @@
+train_01  awarded_private=0.7133  best_possible=0.7133  top_by_public=portfolio_logistic
+train_02  awarded_private=0.9691  best_possible=0.9691  top_by_public=portfolio_rank_top2
+train_03  awarded_private=0.8214  best_possible=0.8214  top_by_public=portfolio_rank_all
+train_04  awarded_private=0.8360  best_possible=0.8360  top_by_public=portfolio_rank_top2
+train_05  awarded_private=0.6892  best_possible=0.6892  top_by_public=portfolio_rank_all
+train_06  awarded_private=0.8149  best_possible=0.8149  top_by_public=portfolio_rank_top2
+train_07  awarded_private=0.8329  best_possible=0.8329  top_by_public=portfolio_rank_top2
+train_08  awarded_private=0.8507  best_possible=0.8507  top_by_public=portfolio_rank_top2
+train_09  awarded_private=0.6569  best_possible=0.6569  top_by_public=portfolio_rank_top2
+train_10  awarded_private=0.8574  best_possible=0.8574  top_by_public=portfolio_catboost
+train_11  awarded_private=0.8196  best_possible=0.8196  top_by_public=portfolio_rank_top2
+train_12  awarded_private=0.7731  best_possible=0.7731  top_by_public=portfolio_lightgbm
+train_13  awarded_private=0.6468  best_possible=0.6472  top_by_public=portfolio_rank_all
+train_14  awarded_private=0.8123  best_possible=0.8123  top_by_public=portfolio_rank_top2
+train_15  awarded_private=0.8674  best_possible=0.8674  top_by_public=portfolio_rank_top2
+train_16  awarded_private=0.9071  best_possible=0.9071  top_by_public=portfolio_catboost
+
+MEAN awarded private = 0.8042  over 16 datasets

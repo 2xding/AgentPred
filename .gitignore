@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Virtualenv / caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Competition practice datasets (76 MB, includes solution.csv labels — not redistributed)
+data/
+
+# Local build noise
+build.log
